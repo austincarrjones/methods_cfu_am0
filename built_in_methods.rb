@@ -66,7 +66,22 @@ puts my_name.reverse!
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+age = 35
+puts age.round(-1)
 
+#age = 35: assigns the integer value 35 to the variable age.
+#age.round(-1) This calls the round method on the variable age. 
+#The round method is used to round a number to the nearest specified decimal place. In this case, -1 is passed as the argument, which means rounding to the nearest 10.
+#In this case the result is rounded to the nearest multiple of 10. 
+#So 35 would be rounded to 40 and 40 was printed to the console.
+
+days_left_year = 296
+puts days_left_year.div(30)
+
+#days_left_year = 296 this assigns the integer 296 to the varibale days_left_year
+#puts days_left_year.div(30) this calls the div method on the varibale days_left_year and 30 is passed as the argument. The div method performs integer division.
+#so the result is 296/30 approx 9.86, but since it's integer division it discards the remainder and returns the quotient only, 9.
+#this could be used to find out approx how many months are left in a year (not including current month) if you know how many days are left.
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
