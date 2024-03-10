@@ -43,6 +43,21 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+my_name = "Austin"
+puts my_name.empty?
+my_name = ""
+puts my_name.empty?
+
+# The empty? method is called on the my_name variable, which stores the string object "Austin"
+# The empty? method returns the value false if the data in the my_name variable is not empty
+# The second series shows when the empty method detects that the string is empty (no data) and returns true.
+
+my_dogs_name = "Regina"
+puts my_name.reverse!
+
+# The .reverse! method is called on the my_dogs_name variable, which stores the string object "Regina"
+# The .reverse! method returns the string in backward order (characters reversed) in this case "anigeR"
+
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
