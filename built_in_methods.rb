@@ -6,23 +6,27 @@
 # The downcase method is called on the string object "Hello World"
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
-"Hello World".downcase
+# "Hello World".downcase
 
 
-"Hello World".include?("Hello")
+# "Hello World".include?("Hello").n
 
 
-"Hello World".end_with?("Hello")
+# "Hello World".end_with?("Hello")
 
 
-"Hello World".end_with?("rld")
+# "Hello World".end_with?("rld")
 
 
-12.even?
-
+# 12.even?
+# The even? method is called on the integer object 12.
+# No arguments are passed; even? has one job which is to evaluate whether the integer is even. 
+# The return value is --> true
 
 18.next
-
+# The next method is called on the integer object 18.
+# No arguments are passed; next has one job which is to move to the next integer in ascending order
+# The return value is --> 19
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
