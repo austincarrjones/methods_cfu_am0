@@ -88,3 +88,16 @@ puts days_left_year.div(30)
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+random_list = [4, 0, 8, 1]
+puts random_list.sort
+
+# The random_list variable stores an array of integers. This array has 4 elements.
+# The sort method sorts the elements in the array and returns 0, 1, 4, 8.
+
+friends_names = ["Timmy", "Cait", "Stef"]
+puts friends_names.include? ("Bruce")
+
+# The friends_names variable stores an array of strings. This array has 3 elements.
+# The include? method returns boolean result if the argument(element) is included in the array
+# it checks if "Bruce" is included in the array, it is not so the return value is false.
