@@ -128,12 +128,35 @@ puts "the square of #{integer} = #{square(integer)}"
 # <=3 && > 0 == running low
 # 0 == out of stock
 
-def check_stock(amount, ingredient)
-    if quantity >= 4
-        puts "#{ingredient} - is stocked"
-    elsif quantity > 0
-        puts "#{ingredient} - running LOW"
-    else
-        puts "#{ingredient} - OUT of stock"
+# def check_stock(amount, ingredient)
+#     if amount >= 4
+#         puts "#{ingredient} - is stocked"
+#     elsif amount > 0
+#         puts "#{ingredient} - running LOW"
+#     else
+#         puts "#{ingredient} - OUT of stock"
+#     end
+# end
+
+# check_stock (4, Salsa)
+
+#===============================
+
+#ATTEMPT 4
+
+#Don't try the if statement in the method, split out separately
+
+amount = 4
+ingredient = "Salsa"
+if amount >= 4
+    puts "#{ingredient} - is stocked"
+elsif amount > 0
+    puts "#{ingredient} - running LOW"
+else
+    puts "#{ingredient} - OUT of stock"
 end
 
+#the above conditional works. Trying to figure out how to define a method now.
+
+def check_stock(amount, ingredient)
+    
